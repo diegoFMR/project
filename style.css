@@ -1,0 +1,119 @@
+.no-margin{
+    margin: 0
+}
+
+header{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,37,121,1) 23%, rgb(120, 226, 247) 80%);
+    /* background-color: red; */
+    height: 87vh;
+    display: flex;
+    flex-wrap: wrap; /*Wrap so the items will move in a responsive way */
+    justify-content: space-evenly; 
+    align-items: center; /* center on axis */
+}
+.section-container{ 
+    height: 90%;
+    width: 40%;
+    display: flex;
+    border-radius: 2.5%;
+    box-shadow: 0px 7px 18px;
+}
+.section-container:hover{ 
+    box-shadow: 0px 7px 24px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+hr{
+    margin: 0;
+}
+ol{
+    display: inline-block;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 1rem;
+    padding-left: 0px;
+    margin-top: 0.5rem;
+}
+p{
+    font-family: garamond;
+}
+h2,h3{
+    font-family: georgia;
+    font-size: large;
+}
+.skill-text{
+    padding-left: 1rem;
+    overflow-y: auto;/* Scroll will hide if not overflown */
+    margin-top: 1rem;
+}
+
+.text-container{
+    width: 40%;
+    max-width: 40%;
+}
+
+.intro-container{
+    display: flex;
+    justify-content: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*img to its container's size */
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-container{
+    width: 55%;
+    height: 85%;
+    margin: auto;
+}
+
+.shape{
+    border-radius: 4% 33%;
+}
+.shape:hover{
+    border-radius: 52% 12%;
+    animation-name: radius;
+    animation-duration: 1s;
+}
+
+footer{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgb(227, 227, 227) 100%);
+    height: 20vh;
+}
+.contact-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.link-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-title{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: rgb(198, 198, 198);
+}
+.overflow{
+    overflow-y: auto;
+}

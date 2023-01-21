@@ -29,7 +29,7 @@ h2{
 hr{
     margin: 0;
 }
-ol{
+ol,ul{
     display: inline-block;
     margin-bottom: 0;
     list-style: none;
